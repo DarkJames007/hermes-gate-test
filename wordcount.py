@@ -1,2 +1,2 @@
 def count_words(text):
-    raise NotImplementedError
+    return len(text.split())
