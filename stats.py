@@ -1,2 +1,2 @@
 def maximum(values):
-    raise NotImplementedError
+    return max(values) if values else None
