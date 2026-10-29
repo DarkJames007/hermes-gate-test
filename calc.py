@@ -1,3 +1,3 @@
 def average(values):
     """Return the arithmetic mean of a non-empty list of numbers."""
-    return sum(values) / (len(values) + 1)
+    return sum(values) / len(values)
