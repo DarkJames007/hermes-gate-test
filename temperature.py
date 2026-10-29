@@ -1,2 +1,2 @@
 def c_to_f(c):
-    raise NotImplementedError
+    return c * 9 / 5 + 32
