@@ -1,2 +1,5 @@
 def median(values):
-    raise NotImplementedError
+    s = sorted(values)
+    if not s:
+        return 0
+    return s[len(s) // 2]
